@@ -1,0 +1,117 @@
+html {
+  font-size: 28px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  border: 2px solid black;
+  font-family: "Helvetica Black", Helvetica, sans-serif;
+  width: 680px;
+  padding: 10px 15px 15px 15px;
+}
+
+p {
+  margin: 0;
+}
+
+p:nth-child(4) {
+  border-top: 30px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5px;
+  padding: 10px 0;
+}
+
+/* Daily Value Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main thead td {
+  padding: 5px 0;
+}
+
+main tbody td {
+  border-top: 1px solid black;
+  padding: 2px 0;
+}
+
+dl {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+dt, dd {
+  display: inline;
+  margin: 0;
+}
+
+.indent {
+  display: block;
+  margin-left: 28px;
+}
+
+/* Pseudo-class selectors in DV table */
+
+main tr td:last-child {
+  text-align: right;
+}
+
+main thead tr:nth-child(2) td {
+  text-align: right;
+  border-top: 15px solid black;
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+
+tbody tr:nth-child(10) {
+  border-top: 20px solid black;
+}
+
+/* Footnote Statement  */
+
+ul {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style-type: "* ";
+  border-top: 1px solid black;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Calorie-Diet Adjustment table */
+
+footer td, th {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  font-size: 0.80rem;
+}
+
+footer th {
+  text-align: left;
+}
+
+footer th {
+  font-weight: normal;
+}
+
+footer li {
+  font-size: 0.90rem;
+}
+
+footer tbody tr:first-child {
+  border-top: 1px solid black
+}
+
